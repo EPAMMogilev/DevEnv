@@ -25,6 +25,9 @@ Set up your IDE as the following:
   * Maven [plugin](http://mojo.codehaus.org/findbugs-maven-plugin/)
   * Set up plugin to use rules file from this repository
 
+Once you've set this all up, run:
+>mvn site
+
 ## Before pushing to remote repository:
 
 * Make sure that your code passes all pmd, findbugs and checkstyle checks
